@@ -1,0 +1,19 @@
+package pos2 ;
+import java.util.*;
+
+
+public class main1 {
+
+	public static void main(String[] args) {
+
+		product prod1 = new product("pen", 10,10,10,10);
+		ArrayList<product> prods = new ArrayList<product>();
+		
+		prods.add(prod1);
+		
+		System.out.println(prods.get(0));
+		
+
+	}
+
+}

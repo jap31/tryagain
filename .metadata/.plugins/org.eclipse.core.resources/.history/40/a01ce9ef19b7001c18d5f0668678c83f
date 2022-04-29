@@ -1,0 +1,17 @@
+package pos2 ;
+import java.util.*;
+
+
+public class main1 {
+
+	public static void main(String[] args) {
+
+		product prod1 = new product("pen", 10,10,10,10 );
+		product prod2 = new product("notebook", 10,10,10,10 );
+		product prod3 = new product("pencil", 10,10,10,10 );
+		product prod4 = new product("eraser", 10,10,10,10 );
+		
+		System.out.println(prod1);
+	}
+
+}

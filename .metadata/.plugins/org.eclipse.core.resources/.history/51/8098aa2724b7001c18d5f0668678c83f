@@ -1,0 +1,38 @@
+package pos2;
+import java.util.*;
+
+public class product {
+		
+		private String name;
+		private int price;
+		private int quantity;
+		private int sold;
+		private int sales;
+		
+		public product(String name, Integer price, Integer quantity, Integer sold, Integer sales) {
+			
+			this.name=name;
+			this.price=price;
+			this.quantity=quantity;
+			this.sold=sold;
+			this.sales=sales;
+				
+		}
+		
+		public String getname() {
+			return name;
+		}
+		public int getprice() {
+			return price;
+		}
+		public int getquantity() {
+			return quantity;
+		}
+		public int getsold() {
+			return sold;
+		}
+		public int getsales() {
+			return sales;
+		}
+
+}

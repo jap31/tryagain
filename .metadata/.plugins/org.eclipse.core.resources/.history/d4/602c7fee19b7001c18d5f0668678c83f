@@ -1,0 +1,23 @@
+package pos2;
+import java.util.*;
+
+public class product {
+		
+		ArrayList<String> names = new ArrayList<String>();
+		ArrayList<Integer> prices = new ArrayList<Integer>();
+		ArrayList<Integer> quantitys = new ArrayList<Integer>();
+		ArrayList<Integer> solds = new ArrayList<Integer>();
+		ArrayList<Integer> saleses = new ArrayList<Integer>();
+	
+		
+		public product(String name, int price, int quantity, int sold, int sales) {
+			
+			
+			names.add(name);
+			prices.add(price);
+			quantitys.add(quantity);
+			solds.add(sold);
+			saleses.add(sales);
+		}
+
+}

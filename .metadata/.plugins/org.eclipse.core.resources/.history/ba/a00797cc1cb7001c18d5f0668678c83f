@@ -1,0 +1,25 @@
+package pos2 ;
+import java.util.*;
+
+
+public class main1 {
+
+	public static void main(String[] args) {
+
+		product prod1 = new product("pen", 10,10,10,10);
+		product prod2 = new product("notebook", 5,5,5,5);
+		
+		System.out.println(prod1.names);
+		System.out.println(prod1.prices);
+		System.out.println(prod1.quantitys);
+		System.out.println(prod1.solds);
+		System.out.println(prod1.saleses);
+		
+		System.out.println(prod2.names);
+		System.out.println(prod2.prices);
+		System.out.println(prod2.quantitys);
+		System.out.println(prod2.solds);
+		System.out.println(prod2.saleses);
+	}
+
+}

@@ -1,0 +1,28 @@
+package pos2 ;
+import java.util.*;
+
+
+public class main1 {
+
+	public static void main(String[] args) {
+
+		product prod1 = new product("pen", 10,10,10,10);
+		product prod2 = new product("notebook", 10,10,10,10);
+		product prod3= new product("pencil", 10,10,10,10);
+		product prod4 = new product("eraser", 10,10,10,10);
+		
+		ArrayList<product> prods = new ArrayList<product>();
+		
+		prods.add(prod1);
+		prods.add(prod2);
+		prods.add(prod3);
+		prods.add(prod4);
+		
+		for(int x=0; x< prods.size(); x++ )
+		System.out.println(prods.get(x).getname()+" "+ prods.get(x).getprice()+" "+prods.get(x).getquantity()+" "+prods.get(x).getsold()+" " +prods.get(x).getsales());
+		
+		
+
+	}
+
+}

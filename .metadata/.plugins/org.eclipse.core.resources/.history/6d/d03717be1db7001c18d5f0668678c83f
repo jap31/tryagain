@@ -1,0 +1,10 @@
+package pos2;
+
+import java.util.ArrayList;
+
+public class arrayclass {
+	
+	ArrayList<product> prod1 = new ArrayList<product>();
+	ArrayList<product> prod2 = new ArrayList<product>();
+
+}
